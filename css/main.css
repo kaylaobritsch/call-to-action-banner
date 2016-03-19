@@ -6,6 +6,57 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+}
+
+.banner-content {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 45rem;
+}
+
+.circle {
+  float: left;
+  width: 40%;
+}
+
+.ultra {
+  float: right;
+  width: 50%;
+}
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  max-width: 20rem;
+}
+
+p {
+  max-width: 30rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Button Style */
+
 a {
   text-decoration: none;
 }
@@ -14,7 +65,7 @@ a {
   background-color: #333;
   border-radius: 8px;
   color: #fff;
-  display: inline-block;
+  display: inline;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.25rem;
   padding: 0.6em 0.75em 0.4em;
@@ -25,16 +76,5 @@ a {
 }
 
 .btn-big {
-  font-size: 1.5rem;
-}
-
-h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
 }
